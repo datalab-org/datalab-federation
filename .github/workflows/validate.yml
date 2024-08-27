@@ -35,4 +35,5 @@ jobs:
 
             - name: Validate entries against LinkML schema
               run: |
+                  source .venv/bin/activate
                   make validate
