@@ -34,7 +34,6 @@ jobs:
     publish_container_image:
         name: Publish container on ghcr.io
         if: github.repository_owner == 'datalab-org' && github.event_name == 'push'
-
         runs-on: ubuntu-latest
 
         steps:
