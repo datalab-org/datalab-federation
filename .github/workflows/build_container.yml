@@ -32,10 +32,6 @@ jobs:
         name: Build container and optionally publish on GH Container Registry
         if: github.repository_owner == 'datalab-org' && github.event_name == 'push'
 
-        environment:
-            name: publish
-            url: https://github.com/${{ github.repository }}/pkgs/container/${{ vars.IMAGE_NAME }}
-
         runs-on: ubuntu-latest
 
         steps:
