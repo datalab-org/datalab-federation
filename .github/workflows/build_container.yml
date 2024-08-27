@@ -46,7 +46,7 @@ jobs:
               id: docker-metadata
               uses: docker/metadata-action@v5
               with:
-                  images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+                  images: ${{ github.repository }}
                   tags: |
                       type=sha,latest=true
 
