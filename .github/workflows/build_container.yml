@@ -12,10 +12,6 @@ jobs:
         if: github.repository_owner == 'datalab-org'
         runs-on: ubuntu-latest
 
-        environment:
-            name: container-image
-            url: https://github.com/${{ github.repository }}/pkgs/container/${{ vars.IMAGE_NAME }}
-
         steps:
             - name: Checkout repository
               uses: actions/checkout@v4
