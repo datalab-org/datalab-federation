@@ -1,7 +1,7 @@
 ---
 id: demo
 name: >-
-  *datalab* demo instance
+    *datalab* demo instance
 contact:
     - name: datalab demo team
       email: demo@datalab-org.io
@@ -10,7 +10,7 @@ api_url: https://demo-api.datalab-org.io
 description: >-
     The *datalab* demo instance is a public instance of the *datalab* federation, hosted by
     datalab industries ltd. It is intended to provide a demonstration of the capabilities
-    of *datalab*, and to provide a sandbox environment for testing and development. Any data 
+    of *datalab*, and to provide a sandbox environment for testing and development. Any data
     stored in the *datalab* demo instance is private unless otherwise shared, but can be removed
     without warning.
 source_repository: https://github.com/datalab-org/datalab-demo-deployment

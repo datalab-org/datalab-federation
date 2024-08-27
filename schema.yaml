@@ -13,12 +13,12 @@ description: >-
 
 classes:
     Contact:
-      description: >-
-        Contact information for a person or organisation.
-      slots:
-        - name
-        - email
-        - affiliation
+        description: >-
+            Contact information for a person or organisation.
+        slots:
+            - name
+            - email
+            - affiliation
     DatalabInstance:
         description: >-
             A *datalab* instance that is part of the *datalab* federation.
@@ -36,7 +36,7 @@ classes:
             id:
                 required: true
                 description: >-
-                    A unique identifier for the *datalab* instance. This *MUST* match the identifier prefix 
+                    A unique identifier for the *datalab* instance. This *MUST* match the identifier prefix
                     reported by the instance, and should be unique across all instances in the federation.
             name:
                 required: true
@@ -66,5 +66,5 @@ classes:
                     A canonical URL or URI for any documentation associated specifically with this
                     *datalab* instance.
             homepage:
-                 description: >-
+                description: >-
                     A web page relevant to the *datalab* instance, for example, a group or company website.
