@@ -9,3 +9,7 @@ WORKDIR /app
 COPY Makefile schema.yaml ./
 COPY src src
 RUN source /opt/.venv/bin/activate && make all
+
+FROM alpine as final
+
+COPY from=builder /app/combined.yaml .
