@@ -1,0 +1,70 @@
+---
+name: datalab instance
+version: 0.0.1
+id: https://schemas.datalab-org.io/federation/provider
+prefixes:
+    linkml: https://w3id.org/linkml/
+imports:
+    - linkml:types
+default_range: string
+description: >-
+    This file describes top-level public metadata for *datalab* instances
+    that wish to be part of the *datalab* federation.
+
+classes:
+    Contact:
+      description: >-
+        Contact information for a person or organisation.
+      slots:
+        - name
+        - email
+        - affiliation
+    DatalabInstance:
+        description: >-
+            A *datalab* instance that is part of the *datalab* federation.
+        slots:
+            - id
+            - name
+            - contact
+            - canonical_url
+            - api_url
+            - description
+            - source_repository
+            - documentation
+            - homepage
+        attributes:
+            id:
+                required: true
+                description: >-
+                    A unique identifier for the *datalab* instance. This *MUST* match the identifier prefix 
+                    reported by the instance, and should be unique across all instances in the federation.
+            name:
+                required: true
+                description: >-
+                    The name of the *datalab* instance.
+            contact:
+                required: true
+                multivalued: true
+                description: >-
+                    Contact details for the *datalab* instance.
+            canonical_url:
+                required: true
+                description: >-
+                    The canonical URL for the *datalab* instance.
+            api_url:
+                description: >-
+                    The API URL for the *datalab* instance.
+            description:
+                description: >-
+                    A description of the *datalab* instance.
+            source_repository:
+                description: >-
+                    A canonical URL or URI for a source code repository associated specifically with this
+                    *datalab* instance.
+            documentation:
+                description: >-
+                    A canonical URL or URI for any documentation associated specifically with this
+                    *datalab* instance.
+            homepage:
+                 description: >-
+                    A web page relevant to the *datalab* instance, for example, a group or company website.
