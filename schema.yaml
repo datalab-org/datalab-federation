@@ -1,5 +1,5 @@
 ---
-name: datalab instance
+name: datalab_instance
 version: 0.0.1
 id: https://schemas.datalab-org.io/federation/provider
 prefixes:
@@ -15,11 +15,13 @@ classes:
     Contact:
         description: >-
             Contact information for a person or organisation.
-        slots:
+        attributes:
             - name
             - email
             - affiliation
+
     DatalabInstance:
+        tree_root: true
         description: >-
             A *datalab* instance that is part of the *datalab* federation.
         slots:
@@ -38,6 +40,7 @@ classes:
                 description: >-
                     A unique identifier for the *datalab* instance. This *MUST* match the identifier prefix
                     reported by the instance, and should be unique across all instances in the federation.
+                pattern: ^[a-z-]{4,12}$
             name:
                 required: true
                 description: >-
@@ -45,6 +48,7 @@ classes:
             contact:
                 required: true
                 multivalued: true
+                range: Contact
                 description: >-
                     Contact details for the *datalab* instance.
             canonical_url:
