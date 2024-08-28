@@ -23,6 +23,7 @@ validate: $(ENTRIES) # Validate each entry in `./src/instances` against the sche
 			entry_id=$$(yq -r '.id' $$file)
 			if [ "$$file_id" != "$$entry_id" ]; then
 				echo "    ✗ $$file_id != $$entry_id (entry ID and file name do not match)"
+				errored=true
 			fi;
 			output=$$(linkml-validate -s schema.yaml $$file 2>&1); status=$$?
 			if [ $$status -ne 0 ]; then
