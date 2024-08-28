@@ -40,7 +40,7 @@ classes:
                 description: >-
                     A unique identifier for the *datalab* instance. This *MUST* match the identifier prefix
                     reported by the instance, and should be unique across all instances in the federation.
-                pattern: ^[a-z-]{4,12}$
+                pattern: ^[a-z-]{2,12}$
             name:
                 required: true
                 description: >-
