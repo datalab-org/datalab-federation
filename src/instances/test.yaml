@@ -1,0 +1,13 @@
+---
+id: test
+name: >-
+    *datalab* test instances
+contact:
+    - name: datalab development team
+      email: dev@datalab-org.io
+canonical_url: http://localhost:8080
+api_url: http://localhost:5000
+description: >-
+    This *datalab* federation entry point is used for testing purposes.
+    It QR codes from local developments to be tested with the link resolver.
+status: staging
