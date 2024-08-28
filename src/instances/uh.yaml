@@ -5,7 +5,7 @@ name: >-
 contact:
     - name: Joshua Bocarsly
       email: admin@bocarslygroup.com
-canonical_url: https://datalab.bocarslygroupd.com
+canonical_url: https://datalab.bocarslygroup.com
 api_url: https://datalab-api.bocarslygroup.com
 description: >-
     Datalab instance for the Bocarsly group at the University of Houston
