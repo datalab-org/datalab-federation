@@ -54,8 +54,9 @@ classes:
             canonical_url:
                 required: true
                 description: >-
-                    The canonical URL for the *datalab* instance.
+                    The canonical URL for the UI of the *datalab* instance.
             api_url:
+                required: true
                 description: >-
                     The API URL for the *datalab* instance.
             description:
