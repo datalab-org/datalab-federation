@@ -62,6 +62,12 @@ classes:
             description:
                 description: >-
                     A description of the *datalab* instance.
+            status:
+                default: active
+                description: >-
+                    The deployment, development or other status of the *datalab* instance. Any values other than 'active'
+                    should be considered as a warning that the instance may not be fully operational and thus disaggregated 
+                    from multi-instance queries.
             source_repository:
                 description: >-
                     A canonical URL or URI for a source code repository associated specifically with this
