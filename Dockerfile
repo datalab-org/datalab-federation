@@ -1,5 +1,5 @@
 FROM python:3.12-alpine AS builder
-RUN apk add --no-cache make
+RUN apk add --no-cache make jq
 WORKDIR /opt
 RUN pip install uv
 RUN uv venv
