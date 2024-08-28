@@ -63,7 +63,7 @@ classes:
                 description: >-
                     A description of the *datalab* instance.
             status:
-                default: active
+                ifabsent: active
                 description: >-
                     The deployment, development or other status of the *datalab* instance. Any values
                     other than 'active' should be considered as a warning that the instance may not
