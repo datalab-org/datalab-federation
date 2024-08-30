@@ -1,0 +1,11 @@
+---
+id: grey
+name: >-
+    Grey group at the University of Cambridge
+contact:
+    - name: Matthew Evans
+      email: web@odbx.science
+canonical_url: https://datalab.odbx.science
+api_url: https://api.odbx.science
+description: >-
+    Datalab instance for the group of Prof Clare Grey group at the University of Cambridge
