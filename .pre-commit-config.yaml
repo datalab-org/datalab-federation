@@ -28,3 +28,11 @@ repos:
       hooks:
           - id: yamllint
             args: [--format, parsable, --strict, -d, '{line-length: {max: 100}}']
+
+    - repo: local
+      hooks:
+          - id: replace-yml-with-yaml
+            name: Federation entries must be .yaml, not .yml
+            entry: Federation entries must be .yaml, not .yml
+            files: ^src/instances/.*(?<!\.yaml)$
+            language: fail
