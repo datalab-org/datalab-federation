@@ -1,0 +1,11 @@
+---
+id: concat
+name: >-
+    ConCat lab at TU Berlin
+contact:
+    - name: Peter Kraus
+      email: peter.kraus@tu-berlin.de
+canonical_url: https://datalab.concatlab.eu/
+api_url: https://datalab-api.concatlab.eu
+description: >-
+    Datalab instance for ConCat lab, the group of Peter Kraus at TU Berlin
