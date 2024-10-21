@@ -1,0 +1,15 @@
+---
+id: cliffe
+name: >-
+    Cliffe group at the University of Nottingham, UK
+status: active
+contact:
+    - name: Matthew Cliffe
+      affiliation: University of Nottingham
+    - name: Matthew Evans
+      email: cliffe-datalab@datalab.industries
+canonical_url: https://datalab.cliffegroup.com
+api_url: https://datalab-api.cliffegroup.com
+homepage: https://cliffegroup.com
+description: >-
+    datalab instance for the Cliffe group at the University of Nottingham, UK.
