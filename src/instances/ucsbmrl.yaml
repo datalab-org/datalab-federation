@@ -1,0 +1,10 @@
+---
+id: ucsbmrl
+name: >-
+    Materials Reserach Laboratory at UCSB.
+contact:
+    - name: Tyler Pennebaker
+canonical_url: https://datalab.mrl.ucsb.edu
+api_url: https://datalab-api.mrl.ucsb.edu
+description: >-
+    Datalab instance for the Materials Reserach Laboratory at UCSB
