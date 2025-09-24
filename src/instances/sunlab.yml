@@ -1,0 +1,11 @@
+---
+id: sunlab
+name: >-
+    Sun lab in the Department of Materials Science and Metallurgy at the University of Cambridge
+contact:
+    - name: Matthew Evans
+      email: sunlab@datalab.industries
+canonical_url: https://datalab.camsunlab.com
+api_url: https://datalab.camsunlab.com
+description: >-
+    datalab instance for the group of Prof Shijing Sun at the University of Cambridge
