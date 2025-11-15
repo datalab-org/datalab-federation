@@ -1,5 +1,5 @@
 ---
-id: concat
+id: croft
 name: >-
     PSDI Polymers datalab
 contact:
@@ -9,4 +9,4 @@ canonical_url: https://psdi.datalab.industries
 api_url: https://api.psdi.datalab.industries
 homepage: https://psdi.ac.uk
 description: >-
-    datalab instance the PSDI Polymers Pathfinder project
+    datalab instance the PSDI Polymers Pathfinder project, lead by Prof Anna Croft (University of Loughborough).
