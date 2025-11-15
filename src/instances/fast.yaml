@@ -1,0 +1,13 @@
+---
+id: fast
+name: >-
+    Faraday Institution - FAST datalab
+contact:
+    - name: Matthew Evans
+      email: faraday-fast@datalab.industries
+canonical_url: https://faraday-fast.datalab.industries
+api_url: https://api.faraday-fast.datalab.industries
+homepage: https://www.faraday.ac.uk/research/sustainable-manufacture-scaleup-and-recycling/fast/
+description: >-
+    datalab instance for the Faraday Institution's Formation and Aging for Sustainable Battery Techologies
+    (FAST) project, lead by Prof Emma Kendrick (University of Birmingham).

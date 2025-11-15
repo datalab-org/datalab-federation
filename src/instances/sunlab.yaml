@@ -1,0 +1,12 @@
+---
+id: sunlab
+name: >-
+    Sun Lab at Materials Science and Metallurgy, University of Cambridge
+contact:
+    - name: Shijing Sun
+canonical_url: https://datalab.camsunlab.com
+api_url: https://datalab-api.camsunlab.com
+homepage: https://camsunlab.com
+description: >-
+    Datalab instance for the group of Prof Shijing Sun at Materials Science and Metallurgy, University
+    of Cambridge
