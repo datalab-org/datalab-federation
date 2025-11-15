@@ -1,0 +1,12 @@
+---
+id: concat
+name: >-
+    PSDI Polymers datalab
+contact:
+    - name: Matthew Evans
+      email: psdi-polymers@datalab.industries
+canonical_url: https://psdi.datalab.industries
+api_url: https://api.psdi.datalab.industries
+homepage: https://psdi.ac.uk
+description: >-
+    datalab instance the PSDI Polymers Pathfinder project

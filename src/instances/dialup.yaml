@@ -1,0 +1,12 @@
+---
+id: dialup
+name: >-
+    Dial-up datalab
+contact:
+    - name: Matthew Evans
+      email: dialup@datalab.industries
+canonical_url: https://dialup.datalab.industries
+api_url: https://api.dialup.datalab.industries
+homepage: https://www.nottingham.ac.uk/research/groups/cfam/research/research-projects/dialling-up-performance-for-on-demand-manufacture/dialling-up-performance-for-on-demand-manufacturing.aspx
+description: >-
+    datalab instance for the Dial-Up project grant, lead by Prof Ricky Wildman at the University of Nottingham.
