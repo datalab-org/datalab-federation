@@ -1,0 +1,12 @@
+---
+id: digibat
+name: >-
+    DIGIBAT
+contact:
+    - name: datalab industries ltd.
+      email: digibat@datalab.industries
+canonical_url: http://digibat.dept.ic.ac.uk/
+api_url: http://digibat.dept.ic.ac.uk/api
+homepage: https://www.imperial.ac.uk/digibat
+description: >-
+    datalab instance for the DIGIBAT lab at Imperial College London.
