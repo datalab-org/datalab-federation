@@ -8,8 +8,8 @@ contact:
       affiliation: University of Nottingham
     - name: Matthew Evans
       email: cliffe-datalab@datalab.industries
-canonical_url: https://datalab.cliffegroup.co.uk
-api_url: https://datalab-api.cliffegroup.co.uk
+canonical_url: https://datalab.fihm.co.uk
+api_url: https://datalab-api.fihm.co.uk
 homepage: https://cliffegroup.co.uk
 description: >-
     datalab instance for the Cliffe group at the University of Nottingham, UK.
